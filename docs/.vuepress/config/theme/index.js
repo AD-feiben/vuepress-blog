@@ -11,4 +11,10 @@ module.exports = Object.assign({}, themeReco, {
   searchMaxSuggestions: 10,
   // 自动形成侧边导航
   sidebar: 'auto',
+
+  valineConfig: {
+    appId: 'jSVTklp4k0iME4GqIF4wiLvR-MdYXbMMI',
+    appKey: 'PmGnm2o6TNtNgRETcB9FUkDb',
+    recordIP: true
+  }
 })
