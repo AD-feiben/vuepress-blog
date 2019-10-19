@@ -1,0 +1,21 @@
+{
+  "name": "前端develop",
+  "short_name": "前端develop",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#2196f3",
+  "description": "前端develop站点",
+  "theme_color": "blue",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ]
+}
