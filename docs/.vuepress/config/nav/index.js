@@ -1,8 +1,8 @@
 module.exports = [
-  { text: 'Home', link: '/', icon: 'reco-home' },
-  { text: 'About Me', link: '/views/about', icon: 'reco-other' },
-  { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
-  { text: 'Contact',
+  { text: '首页', link: '/', icon: 'reco-home' },
+  { text: '关于我', link: '/views/about', icon: 'reco-other' },
+  { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+  { text: '联系我',
     icon: 'reco-message',
     items: [
       { text: 'GitHub', link: 'https://github.com/AD-feiben', icon: 'reco-github' },

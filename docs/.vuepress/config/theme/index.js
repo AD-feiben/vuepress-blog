@@ -12,6 +12,8 @@ module.exports = Object.assign({}, themeReco, {
   // 自动形成侧边导航
   sidebar: 'auto',
 
+  author: '前端develop',
+
   valineConfig: {
     appId: 'jSVTklp4k0iME4GqIF4wiLvR-MdYXbMMI',
     appKey: 'PmGnm2o6TNtNgRETcB9FUkDb',
