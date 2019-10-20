@@ -17,6 +17,10 @@ module.exports = Object.assign({}, themeReco, {
   valineConfig: {
     appId: 'jSVTklp4k0iME4GqIF4wiLvR-MdYXbMMI',
     appKey: 'PmGnm2o6TNtNgRETcB9FUkDb',
-    recordIP: true
+    placeholder: 'Type something here...',
+    recordIP: true,
+    visitor: true,
+    notify: true, // 邮件提醒!!!
+    verify: true, // 验证码
   }
 })
