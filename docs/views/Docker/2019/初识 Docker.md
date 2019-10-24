@@ -233,3 +233,9 @@ Total reclaimed space: 0B
 ### 2.3 repository 仓库
 
 由于篇幅问题，有关仓库的内容将会放到下一篇文章中。
+
+---
+
+如果你喜欢我的文章，希望可以关注一下我的公众号【前端develop】
+
+![前端develop](/imgs/qrcode.png)

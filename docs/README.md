@@ -13,10 +13,13 @@ actionLink: /views/about/
 ## 抽奖领红包
 
 <div style="text-align: center;">
-  <p>10月31日前关注公众号【前端develop】还能参加抽奖领红包的活动，希望大家都能参与到</p>
+  <p>10月31日前关注公众号【前端develop】还能参加抽奖领红包的活动，希望大家都能参与
+    <a href="https://mp.weixin.qq.com/s/-d9_d5swBpe4rW8ntKTTww" target="_blank">参与抽奖</a>
+  </p>
   <img src="/imgs/qrcode.png" alt="前端devlop"/>
   <figure>前端develop</figure>
 </div>
+
 
 <style>
 .home-blog .home-blog-wrapper .info-wrapper {

@@ -131,3 +131,9 @@ server {
 ```
 
 日志文件需要我们到对应目录下创建对应的 log 文件，修改完配置文件可以使用 `nginx -s reload` 重启服务。
+
+---
+
+如果你喜欢我的文章，希望可以关注一下我的公众号【前端develop】
+
+![前端develop](/imgs/qrcode.png)

@@ -49,3 +49,9 @@ tags:
 ### 管理后台
 
 因为只是我自己在用的，所以并没有用 Nuxt 重构，[源码在此](https://github.com/AD-feiben/blog-admin)
+
+---
+
+如果你喜欢我的文章，希望可以关注一下我的公众号【前端develop】
+
+![前端develop](/imgs/qrcode.png)

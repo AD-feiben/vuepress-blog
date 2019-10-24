@@ -211,3 +211,9 @@ $ docker pull domain:5000/nginx:latest
 ```
 
 除了使用官方提供的 Registry，我们也可以使用 Nexus3.x 来创建仓库，关于如何使用 Nexus 版本的仓库将放到下一篇文章中。当然你也可以从 https://docker_practice.gitee.io/zh-cn/repository/nexus3_registry.html 学习。
+
+---
+
+如果你喜欢我的文章，希望可以关注一下我的公众号【前端develop】
+
+![前端develop](/imgs/qrcode.png)

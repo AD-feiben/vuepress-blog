@@ -39,3 +39,9 @@ function shareConfig (data) {
   // 分享逻辑
 }
 ```
+
+---
+
+如果你喜欢我的文章，希望可以关注一下我的公众号【前端develop】
+
+![前端develop](/imgs/qrcode.png)
