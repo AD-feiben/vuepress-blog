@@ -1,8 +1,8 @@
-const themeConfig = require('./config/theme/')
+const themeConfig = require('./config/theme/');
 
 module.exports = {
   GAID: 'UA-150400513-1',
-  title: "前端develop",
+  title: '前端develop',
   description: '技术分享，Not only front-end!',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -26,7 +26,10 @@ module.exports = {
     'flowchart',
     '@vuepress/pwa', {
       serviceWorker: true,
-      updatePopup: true
+      updatePopup: {
+        message: "发现新内容",
+        buttonText: "刷新"
+      }
     }
   ]
 }
