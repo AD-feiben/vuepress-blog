@@ -24,14 +24,6 @@ module.exports = {
   plugins: [
     '@vuepress/active-header-links',
     '@vuepress/medium-zoom',
-    'flowchart',
-    '@vuepress/pwa',
-    {
-      serviceWorker: true,
-      updatePopup: {
-        message: '发现新内容',
-        buttonText: '刷新'
-      }
-    }
+    'flowchart'
   ]
 };
