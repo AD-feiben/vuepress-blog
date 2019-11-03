@@ -1,6 +1,6 @@
 {
   "name": "fe develop's blog",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "前端develop 的博客",
   "main": "index.js",
   "repository": "https://blog.fedevelop.cn",
