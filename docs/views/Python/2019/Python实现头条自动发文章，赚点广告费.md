@@ -117,7 +117,7 @@ def generate_tracks(distance):
 
 登录头条后，打开控制台 -> Network 选项，将 cookie 赋值给 config.py 中的 Toutiao_cookie_str 即可。
 
-![](https://user-gold-cdn.xitu.io/2019/11/10/16e55bb23e352a75?w=2160&h=1136&f=png&s=336743)
+![](/imgs/python/0.png)
 
 
 
