@@ -1,25 +1,20 @@
 {
   "name": "fe-develop's-blog",
-  "version": "1.0.4",
-  "description": "前端develop 的博客",
-  "main": "index.js",
-  "repository": "https://blog.fedevelop.cn",
+  "version": "1.0.5",
+  "repository": "https://github.com/AD-feiben/vuepress-blog",
   "author": "前端develop",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "bash deploy.sh"
   },
-  "dependencies": {
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1",
     "@vuepress/plugin-medium-zoom": "^1.0.0-rc.1",
     "@vuepress/plugin-pwa": "^1.0.0-rc.1",
-    "vuepress": "1.0.3",
-    "vuepress-plugin-flowchart": "1.4.3",
-    "vuepress-theme-reco": "1.0.8-alpha.3"
+    "vuepress": "1.2.0",
+    "vuepress-theme-reco": "1.1.1"
   },
-  "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.0.0-rc.1"
-  }
+  "description": "前端develop的博客"
 }

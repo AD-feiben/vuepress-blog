@@ -1,9 +1,10 @@
-const themeConfig = require('./config/theme/');
+
 
 module.exports = {
   GAID: 'UA-150400513-1',
   title: '前端develop',
   description: '技术分享，Not only front-end!',
+  dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
@@ -17,13 +18,72 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }]
   ],
   theme: 'reco',
-  themeConfig,
+  themeConfig: {
+    nav: [
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '关于我', link: '/views/about', icon: 'reco-other' },
+      { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+      {
+        text: '联系我',
+        icon: 'reco-message',
+        items: [
+          { text: 'GitHub', link: 'https://github.com/AD-feiben', icon: 'reco-github' },
+          { text: '掘金', link: 'https://juejin.im/user/58d3ab5b128fe1006cb236e1', icon: 'reco-juejin' },
+          { text: '知乎', link: 'https://www.zhihu.com/people/fei-ben-3-68/activities', icon: 'reco-zhihu' },
+          { text: '简书', link: 'https://www.jianshu.com/u/ccb05861b473', icon: 'reco-jianshu' }
+        ]
+      },
+      {
+        text: '腾讯云活动',
+        link: 'https://cloud.tencent.com/act/cps/redirect?redirect=1050&cps_key=2b95bb5268d89601374053116cd95c80&from=console',
+        icon: 'reco-tongzhi'
+      }
+    ],
+    type: 'blog',
+    blogConfig: {
+      category: {
+        location: 2,
+        text: '分类'
+      },
+      tag: {
+        location: 3,
+        text: '标签'
+      }
+    },
+    logo: '/head.png',
+    search: true,
+    searchMaxSuggestions: 10,
+    sidebar: 'auto',
+
+    lastUpdated: '更新于:',
+    author: '前端develop',
+    record: '',
+    startYear: '2017',
+
+    valineConfig: {
+      appId: 'jSVTklp4k0iME4GqIF4wiLvR-MdYXbMMI',
+      appKey: 'PmGnm2o6TNtNgRETcB9FUkDb',
+      placeholder: 'Type something here...',
+      recordIP: true,
+      visitor: true,
+      notify: true, // 邮件提醒!!!
+      verify: true // 验证码
+    },
+
+    themePicker: false
+  },
   markdown: {
     lineNumbers: true
   },
-  plugins: [
-    '@vuepress/active-header-links',
-    '@vuepress/medium-zoom',
-    'flowchart'
-  ]
+  plugins: {
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: true
+    },
+    '@vuepress/active-header-links': {},
+    '@vuepress/medium-zoom': {
+      selector: '.content__default p :not(a) > img'
+    },
+    flowchart: {}
+  }
 };

@@ -8,6 +8,12 @@ tags:
  - 关于我
 ---
 
+:::tip
+[![](https://upload-dianshi-1255598498.file.myqcloud.com/345-200-2e775f9b5cb10db244b6bd2791a26f7e862701a5.jpg)](https://cloud.tencent.com/act/cps/redirect?redirect=1050&cps_key=2b95bb5268d89601374053116cd95c80&from=console)
+
+[腾讯云11.11爆款1核2G云服务器首购88元，免费领9888元代金券，百款云产品一折起](https://cloud.tencent.com/act/cps/redirect?redirect=1050&cps_key=2b95bb5268d89601374053116cd95c80&from=console)
+:::
+
 我在大学时期自学了 Android，大学毕业后参加了前端培训，然后一直从事前端开发， 3 年左右的开发经验，目前就职于 ZB。
 
 喜欢专研技术，在工作之余学习了 Python、Docker、Nginx 等。
