@@ -22,6 +22,11 @@ module.exports = {
     lineNumbers: true
   },
   plugins: [
+    '@vuepress/pwa',
+    {
+      serviceWorker: true,
+      updatePopup: true
+    },
     '@vuepress/active-header-links',
     '@vuepress/medium-zoom',
     'flowchart'
