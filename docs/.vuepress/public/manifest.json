@@ -1,5 +1,6 @@
 {
   "name": "前端develop",
+  "display": "standalone",
   "icons": [{
     "sizes": "180x180",
     "src": "https://blog.fedevelop.cn/imgs/logo.png"
