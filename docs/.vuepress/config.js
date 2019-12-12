@@ -34,8 +34,8 @@ module.exports = {
         ]
       },
       {
-        text: '腾讯云活动',
-        link: 'https://cloud.tencent.com/act/cps/redirect?redirect=1050&cps_key=2b95bb5268d89601374053116cd95c80&from=console',
+        text: '阿里云活动',
+        link: 'https://www.aliyun.com/minisite/goods?userCode=r04ku8tz&share_source=copy_link',
         icon: 'reco-tongzhi'
       }
     ],
