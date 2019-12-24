@@ -57,7 +57,7 @@ module.exports = {
 
     lastUpdated: '更新于:',
     author: '前端develop',
-    record: '',
+    record: '粤ICP备19159721号-1',
     startYear: '2017',
 
     valineConfig: {
