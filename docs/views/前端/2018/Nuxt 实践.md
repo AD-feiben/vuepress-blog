@@ -1,5 +1,5 @@
 ---
-title: 'Nuxt 实践'
+title: Nuxt 实践
 date: 2018-04-10
 categories:
  - 前端
