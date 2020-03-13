@@ -34,9 +34,9 @@ module.exports = {
         ]
       },
       {
-        text: '阿里云活动',
-        link: 'https://www.aliyun.com/minisite/goods?userCode=r04ku8tz&share_source=copy_link',
-        icon: 'reco-tongzhi'
+        text: '面试题',
+        link: 'https://www.fedevelop.cn/fe-interview/',
+        icon: 'reco-document'
       }
     ],
     type: 'blog',
@@ -57,9 +57,9 @@ module.exports = {
 
     lastUpdated: '更新于:',
     author: '前端develop',
+    authorAvatar: '/head.png',
     record: '粤ICP备19159721号-1',
     startYear: '2017',
-
     valineConfig: {
       appId: 'jSVTklp4k0iME4GqIF4wiLvR-MdYXbMMI',
       appKey: 'PmGnm2o6TNtNgRETcB9FUkDb',
@@ -81,9 +81,6 @@ module.exports = {
       updatePopup: true
     },
     '@vuepress/active-header-links': {},
-    '@vuepress/medium-zoom': {
-      selector: '.content__default p :not(a) > img'
-    },
     flowchart: {}
   }
 };

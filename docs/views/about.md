@@ -8,11 +8,6 @@ tags:
  - 关于我
 ---
 
-:::tip
-[![aliyun](/imgs/728x90.jpg)](https://www.aliyun.com/minisite/goods?userCode=r04ku8tz&share_source=copy_link)
-[【阿里云双12感恩回馈，云产品冰点价】云服务器89元/年，这里有专享低价](https://www.aliyun.com/minisite/goods?userCode=r04ku8tz&share_source=copy_link)
-:::
-
 我在大学时期自学了 Android，大学毕业后参加了前端培训，然后一直从事前端开发， 3 年左右的开发经验。
 
 喜欢专研技术，在工作之余学习了 Python、Docker、Nginx 等。
