@@ -240,6 +240,46 @@ updateChildren 过程为：
 
 希望以上内容能够对各位小伙伴有所帮助，祝大家面试顺利。
 
+## 补充（2020/03/16）
+
+Vue 的文档中对 key 的说明如下：
+
+> key 的特殊属性主要用在 Vue 的虚拟 DOM 算法，在新旧 nodes 对比时辨识 VNodes。如果不使用 key，Vue 会使用一种最大限度减少动态元素并且尽可能的尝试就地修改/复用相同类型元素的算法。而使用 key 时，它会基于 key 的变化重新排列元素顺序，并且会移除 key 不存在的元素。
+
+关于就地修改，关键在于 sameVnode 的实现，源码如下：
+
+```js
+function sameVnode (a, b) {
+  return (
+    a.key === b.key && (
+      (
+        a.tag === b.tag &&
+        a.isComment === b.isComment &&
+        isDef(a.data) === isDef(b.data) &&
+        sameInputType(a, b)
+      ) || (
+        isTrue(a.isAsyncPlaceholder) &&
+        a.asyncFactory === b.asyncFactory &&
+        isUndef(b.asyncFactory.error)
+      )
+    )
+  )
+}
+```
+
+可以看出，当 key 未绑定时，主要通过元素的标签等进行判断，在 updateChildren 内会将 oldStartVnode 与 newStartVnode 判断为同一节点。
+
+如果 VNode 中只包含了文本节点，在 patchVnode 中可以直接替换文本节点，而不需要移动节点的位置，确实在不绑定 key 的情况下效率要高一丢丢。
+
+**某些情况下不绑定 key 的效率更高，那为什么官方还是推荐绑定 key 呢？**
+
+因为在实际项目中，大多数情况下 v-for 的节点内并不只有文本节点，那么 VNode 的字节点就要进行销毁和创建的操作。
+
+相比替换文本带来的一丢丢提升，这部分会消耗更多的性能，得不偿失。
+
+
+了解了就地修改，那么我们在一些简单节点上可以选择不绑定 key，从而提高性能。
+
 ---
 
 如果还有其他疑问，欢迎大家扫码关注我的公众号【前端develop】给我留言。
