@@ -12,6 +12,8 @@ tags:
 
 这篇文章将一步步实现 Promise，彻底弄懂 Promise。
 
+<!-- more -->
+
 ## Promise 基本构成
 
 平时使用 Promise 我们可以知道 Promise 存在三种状态 Pending、Resolve、Reject，在 `new Promise` 时需要传入一个函数, 参数为 `resolve` 和 `reject` 的函数，这两个函数用来改变 Promise 的状态。
