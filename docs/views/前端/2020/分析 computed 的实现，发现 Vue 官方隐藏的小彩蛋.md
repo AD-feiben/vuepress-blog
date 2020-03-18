@@ -151,7 +151,7 @@ export class Observer {
       defineReactive(obj, keys[i])
     }
   }
-  
+
   observeArray (items: Array<any>) {
     for (let i = 0, l = items.length; i < l; i++) {
      // 对数组的每一项进行监听
@@ -622,7 +622,17 @@ function createGetterInvoker(fn) {
 
 其实做法非常简单，就是每次调用就执行 computed 属性的 get 函数。
 
-感谢各位小伙伴看到这里，Vue computed 的实现过程都过了一遍，希望能够对各位小伙伴有所帮助。
+## 总结
+
+总结一下 computed 的实现过程，主要有以下几个方面：
+
+1、给 computed 的每个属性创建 Watcher
+
+2、第一个使用 computed 的属性时，将会执行该属性的 get 函数，并完成依赖收集，完后将结果保存在对应 Watcher 的 value 中，对计算结果进行缓存。
+
+3、当依赖发生变化时，Dep 会发布通知，让订阅的 Watcher 进行更新的操作。
+
+最后感谢各位小伙伴看到这里，Vue computed 的实现过程都过了一遍，希望能够对各位小伙伴有所帮助。
 
 如果有讲的不对的地方，可以评论指出哦。如果还有不了解的地方，欢迎关注我的公众号给我留言哦。
 
