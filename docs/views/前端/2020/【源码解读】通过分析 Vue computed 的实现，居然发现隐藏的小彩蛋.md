@@ -1,5 +1,5 @@
 ---
-title: 分析 computed 的实现，发现 Vue 官方隐藏的小彩蛋
+title: 【源码解读】通过分析 Vue computed 的实现，居然发现隐藏的小彩蛋
 date: 2020-03-18
 categories:
  - 前端
