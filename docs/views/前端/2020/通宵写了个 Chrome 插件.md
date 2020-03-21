@@ -13,6 +13,8 @@ tags:
 
 之前用 Python 写了一个发布头条文章的小工具，因为每发一篇文章就需要 Python 打开浏览器，设置 cookie 等相对耗时的操作，于是决定将这个工具改写为浏览器插件。
 
+<!-- more -->
+
 插件效果图如下：
 
 ![plugin-toutiao](https://github.com/AD-feiben/plugin-toutiao/raw/master/img/effect.png)
