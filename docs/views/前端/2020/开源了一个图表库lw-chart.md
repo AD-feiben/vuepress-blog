@@ -153,4 +153,4 @@ for (let t = 0; t <= percent / 100; t += 0.1) {
 
 如果你喜欢我的文章，还可以关注我的公众号【前端develop】
 
-![前端develop](https://user-gold-cdn.xitu.io/2019/10/25/16dfee2bb6ff8f91?w=900&h=500&f=png&s=68014)
+![前端develop](/imgs/qrcode.png)
