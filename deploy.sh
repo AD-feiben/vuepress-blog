@@ -12,7 +12,7 @@ cd public
 git init
 git add .
 git commit -m "auto push"
-git remote add origin https://${token}@github.com/AD-feiben/ad-feiben.github.io.git
+git remote add origin git@github.com:AD-feiben/ad-feiben.github.io.git
 git push -f --set-upstream origin master
 
 cd -

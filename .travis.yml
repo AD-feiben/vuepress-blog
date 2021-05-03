@@ -1,7 +1,0 @@
-language: node
-
-node: "10.15.0"
-
-install: npm install
-
-script: npm run deploy
