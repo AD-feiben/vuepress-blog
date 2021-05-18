@@ -17,8 +17,7 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['script', { charset: 'utf-8', src: 'https://hm.baidu.com/hm.js?c03dc728c7c7aea53311f86758b041c7' }],
-    ['script', { charset: 'utf-8', src: 'https://readmore.openwrite.cn/js/readmore.js' }],
-    ['script', { charset: 'utf-8', src: '/scripts/readmore.js' }]
+    ['script', { charset: 'utf-8', src: 'https://readmore.openwrite.cn/js/readmore.js' }]
   ],
   theme: 'reco',
   themeConfig: {
