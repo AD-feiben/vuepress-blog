@@ -6,7 +6,6 @@ export default ({
   siteData, // 站点元数据
   isServer, // 当前应用配置是处于 服务端渲染 或 客户端
 }) => {
-  // ...做一些其他的应用级别的优化
   Vue.mixin({
     // 混合注入,加载全局文件
     mounted() {
@@ -21,6 +20,6 @@ export default ({
         qrcode: 'https://feiben-1253434158.cos.ap-guangzhou.myqcloud.com/PicGo/qrcode_for_gh_6c8243f94d03_258.jpg',
         keyword: '验证码',
       });
-    },
+    }
   });
 };

@@ -34,11 +34,6 @@ module.exports = {
           { text: '知乎', link: 'https://www.zhihu.com/people/fei-ben-3-68/activities', icon: 'reco-zhihu' },
           { text: '简书', link: 'https://www.jianshu.com/u/ccb05861b473', icon: 'reco-jianshu' }
         ]
-      },
-      {
-        text: '面试题',
-        link: 'https://www.fedevelop.cn/fe-interview/',
-        icon: 'reco-document'
       }
     ],
     type: 'blog',
