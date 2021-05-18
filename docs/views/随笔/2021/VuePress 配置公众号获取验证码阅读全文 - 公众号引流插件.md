@@ -56,7 +56,7 @@ OpenWrite 的教程描述如下
 head: [
   ...,
   ['script', { charset: 'utf-8', src: 'https://readmore.openwrite.cn/js/readmore.js' }]
-】
+]
 ```
 
 2. 添加脚本
