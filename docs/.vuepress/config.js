@@ -79,6 +79,14 @@ module.exports = {
       updatePopup: true
     },
     '@vuepress/active-header-links': {},
-    flowchart: {}
+    flowchart: {},
+    sitemap: {
+      hostname: 'https://www.fedevelop.cn/'
+    },
+    robots: {
+      host: "https://www.fedevelop.cn/",
+      allowAll: true,
+      sitemap: "/sitemap.xml"
+    }
   }
 };
