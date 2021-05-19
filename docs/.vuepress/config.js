@@ -1,4 +1,10 @@
 
+const autometa_options = {
+  site: {
+    name   : '前端develop'
+  },
+  canonical_base: 'https://www.fedevelop.cn',
+};
 
 module.exports = {
   GAID: 'UA-150400513-1',
@@ -6,6 +12,8 @@ module.exports = {
   description: '技术分享，Not only front-end!',
   dest: 'public',
   head: [
+    ['meta', { name: 'keywords', content: '前端develop,博客分享,前端技术,Vue.js,JavaScript,HTML,H5,副业' }],
+    ['meta', { name: 'baidu_union_verify', content: 'd9618350592112eff127ae228cba0df0' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['link', { rel: 'icon', href: '/imgs/logo.png' }],
@@ -16,6 +24,7 @@ module.exports = {
     ['link', { rel: 'apple-touch-icon', href: '/imgs/logo.png' }],
     ['link', { rel: 'mask-icon', href: '/icons/safari-pinned-tab.svg', color: '#3eaf7c' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['script', { type: 'text/javascript', src: '/js/push.js' }],
     ['script', { charset: 'utf-8', src: 'https://hm.baidu.com/hm.js?c03dc728c7c7aea53311f86758b041c7' }],
     ['script', { charset: 'utf-8', src: 'https://readmore.openwrite.cn/js/readmore.js' }]
   ],
@@ -87,6 +96,7 @@ module.exports = {
       host: "https://www.fedevelop.cn/",
       allowAll: true,
       sitemap: "/sitemap.xml"
-    }
+    },
+    autometa: autometa_options
   }
 };
