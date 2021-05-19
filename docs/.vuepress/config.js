@@ -1,7 +1,6 @@
-
 const autometa_options = {
   site: {
-    name   : '前端develop'
+    name: '前端develop'
   },
   canonical_base: 'https://www.fedevelop.cn',
 };
@@ -26,7 +25,9 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['script', { type: 'text/javascript', src: '/js/push.js' }],
     ['script', { charset: 'utf-8', src: 'https://hm.baidu.com/hm.js?c03dc728c7c7aea53311f86758b041c7' }],
-    ['script', { charset: 'utf-8', src: 'https://readmore.openwrite.cn/js/readmore.js' }]
+    ['script', { charset: 'utf-8', src: 'https://readmore.openwrite.cn/js/readmore.js' }],
+    // 添加百度联盟广告的js
+    ['script', { defer: 'defer', async: 'async', src: '//cpro.baidustatic.com/cpro/ui/cm.js' }]
   ],
   theme: 'reco',
   themeConfig: {
