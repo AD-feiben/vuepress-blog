@@ -13,6 +13,7 @@ module.exports = {
   head: [
     ['meta', { name: 'keywords', content: '前端develop,博客分享,前端技术,Vue.js,JavaScript,HTML,H5,副业' }],
     ['meta', { name: 'baidu_union_verify', content: 'd9618350592112eff127ae228cba0df0' }],
+    ['meta', { name: '360-site-verification', content: '56d456e576ca6c5b90493dcda7f96be4' }],
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['link', { rel: 'icon', href: '/imgs/logo.png' }],
@@ -103,10 +104,16 @@ module.exports = {
       cdn: 'https://cdn.jsdelivr.net/gh/ad-feiben/ad-feiben.github.io/'
     },
     'fulltext-search': {},
-    'vuepress-plugin-code-copy': {
-      align: 'top',
-      color: '#21b3f3',
-      backgroundColor: 'rgba(33, 179, 243, 0.8)'
+    // 'vuepress-plugin-code-copy': {
+    //   align: 'bottom',
+    //   color: '#21b3f3',
+    //   backgroundColor: 'rgba(33, 179, 243, 0.8)'
+    // },
+    'vuepress-plugin-nuggets-style-copy': {
+      copyText: "Copy",
+      tip: {
+        content: "复制成功!"
+      }
     }
   }
 };
