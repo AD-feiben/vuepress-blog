@@ -14,10 +14,14 @@
     "@vuepress/plugin-pwa": "^1.0.0-rc.1",
     "vuepress": "1.2.0",
     "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-fulltext-search": "^2.2.0",
     "vuepress-plugin-jsdelivr-cdn": "0.0.8",
     "vuepress-plugin-robots": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-reco": "1.2.0"
   },
-  "description": "前端develop的博客"
+  "description": "前端develop的博客",
+  "dependencies": {
+    "vuepress-plugin-code-copy": "^1.0.6"
+  }
 }

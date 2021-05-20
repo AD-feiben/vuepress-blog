@@ -81,7 +81,7 @@ module.exports = {
     themePicker: false,
   },
   markdown: {
-    lineNumbers: true,
+    lineNumbers: true
   },
   plugins: {
     '@vuepress/pwa': {
@@ -101,6 +101,12 @@ module.exports = {
     autometa: autometa_options,
     'vuepress-plugin-jsdelivr-cdn': {
       cdn: 'https://cdn.jsdelivr.net/gh/ad-feiben/ad-feiben.github.io/'
+    },
+    'fulltext-search': {},
+    'vuepress-plugin-code-copy': {
+      align: 'top',
+      color: '#21b3f3',
+      backgroundColor: 'rgba(33, 179, 243, 0.8)'
     }
   }
 };
