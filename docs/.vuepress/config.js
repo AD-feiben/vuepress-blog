@@ -1,6 +1,6 @@
 const autometa_options = {
   site: {
-    name: '前端develop'
+    name: '前端develop',
   },
   canonical_base: 'https://www.fedevelop.cn',
 };
@@ -27,7 +27,7 @@ module.exports = {
     ['script', { charset: 'utf-8', src: 'https://hm.baidu.com/hm.js?c03dc728c7c7aea53311f86758b041c7' }],
     ['script', { charset: 'utf-8', src: 'https://readmore.openwrite.cn/js/readmore.js' }],
     // 添加百度联盟广告的js
-    ['script', { defer: 'defer', async: 'async', src: '//cpro.baidustatic.com/cpro/ui/cm.js' }]
+    ['script', { defer: 'defer', async: 'async', src: 'https://cpro.baidustatic.com/cpro/ui/cm.js' }],
   ],
   theme: 'reco',
   themeConfig: {
@@ -42,20 +42,20 @@ module.exports = {
           { text: 'GitHub', link: 'https://github.com/AD-feiben', icon: 'reco-github' },
           { text: '掘金', link: 'https://juejin.im/user/58d3ab5b128fe1006cb236e1', icon: 'reco-juejin' },
           { text: '知乎', link: 'https://www.zhihu.com/people/fei-ben-3-68/activities', icon: 'reco-zhihu' },
-          { text: '简书', link: 'https://www.jianshu.com/u/ccb05861b473', icon: 'reco-jianshu' }
-        ]
-      }
+          { text: '简书', link: 'https://www.jianshu.com/u/ccb05861b473', icon: 'reco-jianshu' },
+        ],
+      },
     ],
     type: 'blog',
     blogConfig: {
       category: {
         location: 2,
-        text: '分类'
+        text: '分类',
       },
       tag: {
         location: 3,
-        text: '标签'
-      }
+        text: '标签',
+      },
     },
     logo: '/head.png',
     search: true,
@@ -75,29 +75,32 @@ module.exports = {
       recordIP: true,
       visitor: true,
       notify: true, // 邮件提醒!!!
-      verify: true // 验证码
+      verify: true, // 验证码
     },
 
-    themePicker: false
+    themePicker: false,
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
   },
   plugins: {
     '@vuepress/pwa': {
       serviceWorker: true,
-      updatePopup: true
+      updatePopup: true,
     },
     '@vuepress/active-header-links': {},
     flowchart: {},
     sitemap: {
-      hostname: 'https://www.fedevelop.cn/'
+      hostname: 'https://www.fedevelop.cn/',
     },
     robots: {
-      host: "https://www.fedevelop.cn/",
+      host: 'https://www.fedevelop.cn/',
       allowAll: true,
-      sitemap: "/sitemap.xml"
+      sitemap: '/sitemap.xml',
     },
-    autometa: autometa_options
+    autometa: autometa_options,
+    'vuepress-plugin-jsdelivr-cdn': {
+      cdn: 'https://cdn.jsdelivr.net/gh/ad-feiben/ad-feiben.github.io/'
+    }
   }
 };
