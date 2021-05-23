@@ -1,6 +1,6 @@
 ---
 title: 如何用 OpenWrite 给 VuePress 配置博客导流公众号插件 - 公众号获取验证码阅读全文
-date: 2021-5-18
+date: 2021-05-18
 categories:
  - VuePress
 tags:

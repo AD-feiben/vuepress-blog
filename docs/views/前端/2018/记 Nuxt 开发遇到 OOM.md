@@ -1,6 +1,6 @@
 ---
 title: 记 Nuxt 开发遇到 OOM
-date: 2018-10-6
+date: 2018-10-06
 categories:
  - 前端
 tags:

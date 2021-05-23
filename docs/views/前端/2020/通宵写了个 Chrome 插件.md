@@ -1,6 +1,6 @@
 ---
 title: 通宵写了个 Chrome 插件
-date: 2020-3-21
+date: 2020-03-21
 categories:
  - 插件
 tags:
