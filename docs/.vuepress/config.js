@@ -66,7 +66,7 @@ module.exports = {
     lastUpdated: '更新于:',
     author: '前端develop',
     authorAvatar: '/head.png',
-    record: '粤ICP备19159721号-1',
+    record: '粤ICP备19159721号',
     recordLink: 'http://www.beian.miit.gov.cn',
     startYear: '2017',
     valineConfig: {
