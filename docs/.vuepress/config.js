@@ -100,9 +100,9 @@ module.exports = {
       sitemap: '/sitemap.xml',
     },
     autometa: autometa_options,
-    'vuepress-plugin-jsdelivr-cdn': {
-      cdn: 'https://cdn.jsdelivr.net/gh/ad-feiben/ad-feiben.github.io/'
-    },
+    // 'vuepress-plugin-jsdelivr-cdn': {
+    //   cdn: 'https://cdn.jsdelivr.net/gh/ad-feiben/ad-feiben.github.io/'
+    // },
     'fulltext-search': {},
     // 'vuepress-plugin-code-copy': {
     //   align: 'bottom',
