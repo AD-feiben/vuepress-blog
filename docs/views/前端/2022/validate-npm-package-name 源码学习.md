@@ -5,7 +5,7 @@ categories:
  - 前端
 tags:
  - npm
- - validate-npm-package-name
+ - 检测包名
  - 源码
 ---
 
@@ -13,9 +13,9 @@ tags:
 
 validate-npm-package-name 这个 npm 包的作用就是验证项目名称 (npm 包名) 是否合法，很多的 cli 工具都有使用。例如
 
-vue-cli: https://github.com/vuejs/vue-cli/blob/HEAD/packages/@vue/cli/lib/create.js#L8
+vue-cli: [https://github.com/vuejs/vue-cli/blob/HEAD/packages/@vue/cli/lib/create.js#L8](https://github.com/vuejs/vue-cli/blob/HEAD/packages/@vue/cli/lib/create.js#L8)
 
-create-react-app: https://github.com/facebook/create-react-app/blob/04482a6c2c6639c19deb330c48e4fa5573a1654e/packages/create-react-app/createReactApp.js#L48
+create-react-app: [https://github.com/facebook/create-react-app/blob/04482a6c2c6639c19deb330c48e4fa5573a1654e/packages/create-react-app/createReactApp.js#L48](https://github.com/facebook/create-react-app/blob/04482a6c2c6639c19deb330c48e4fa5573a1654e/packages/create-react-app/createReactApp.js#L48)
 
 <!-- more -->
 
@@ -41,7 +41,7 @@ if (!result.validForNewPackages) {
 ## 测试用例
 
 测试用例只有一个文件，
-https://github.com/npm/validate-npm-package-name/blob/HEAD/test/index.js
+[https://github.com/npm/validate-npm-package-name/blob/HEAD/test/index.js](https://github.com/npm/validate-npm-package-name/blob/HEAD/test/index.js)
 
 这里列举了各种用例，当没有文档时，可以通过这些用例初步了解这个包的用法，而且还可以知道作者想要设计的功能。
 
@@ -73,7 +73,7 @@ t.deepEqual(validate('_start-with-underscore'), {
   // ...
 ```
 
-从 index.js 的内容中可以发现该项目只有这一个 js 文件 https://github.com/npm/validate-npm-package-name/blob/HEAD/index.js
+从 index.js 的内容中可以发现该项目只有这一个 js 文件 [https://github.com/npm/validate-npm-package-name/blob/HEAD/index.js](https://github.com/npm/validate-npm-package-name/blob/HEAD/index.js)
 
 
 ```javascript
